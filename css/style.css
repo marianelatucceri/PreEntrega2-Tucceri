@@ -131,7 +131,7 @@ p {
     .grid-container-img {
         display: grid;
         grid-template-columns: 470px;
-        grid-template-rows: 300px 50px 300px 50px 300px 50px !important;
+        grid-template-rows: 300px 50px 300px 50px 300px 50px;
         border: 2px solid black;
     }
     .item-4{
