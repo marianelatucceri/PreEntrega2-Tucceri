@@ -107,10 +107,10 @@ p {
     font-size: 1rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 470px) {
     .grid-container{
         display: grid;
-        grid-template-columns: 540px;
+        grid-template-columns: 470px;
         grid-template-rows: 100px 450px 450px;
     }
     .item-1{
@@ -121,7 +121,7 @@ p {
     .item-2{
         grid-column: 1/2;
         grid-row: 2/3;
-        margin: 20px;
+        margin: 10px;
     }
     .item-3{
         grid-column: 1/2;
@@ -129,7 +129,6 @@ p {
         margin: 20px;
     }
 }
-
 
 
 .grid-container-img {
