@@ -383,6 +383,40 @@ section div form label {
         width: 250px;
         height: 70px;
     }
+    .grid-container-obras {
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: repeat(6, 350px);
+        row-gap: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .item-13 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .item-14 {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .item-15 {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .item-16 {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+    .item-17 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+    .item-18 {
+        grid-column: 1/2;
+        grid-row: 6/7;
+    }
+
+
 }
 
 
