@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 html {
     font-size: 20px;
@@ -106,7 +107,9 @@ p {
     font-family: "Roboto", sans-serif;
     font-size: 1rem;
 }
-
+.tabulacion{
+    text-indent: 10px;
+}
 
 .flex-container {
     display: flex;
@@ -184,7 +187,7 @@ p {
     grid-column: 1/2;
     grid-row: 2/3;
     padding-top: 15px;
-    padding-left: 30px;
+    padding-left: 30px !important;
 }
 .item-12 map{
     grid-column: 2/3;
@@ -201,6 +204,20 @@ p {
     list-style: none;
     font-size: 1rem;
 } 
+.boton{
+    padding: 5px;
+    background-color: white;
+    color: rgba(80, 9, 9, 0.314);
+    font-family: "Roboto", sans-serif;
+    font-family: 1em;
+    border-radius: 5px;
+    border: 1px solid rgba(80, 9, 9, 0.314);
+    box-shadow: 0px 4px 0px rgba(80, 9, 9, 0.314);
+}
+.bordes-form{
+    border-radius: 5px;
+    border: 1px solid rgba(80, 9, 9, 0.314);
+}
 .map {
     width: 700px;
     padding-top: 30px;
@@ -323,7 +340,7 @@ section div form label {
     .grid-container{
         display: grid;
         grid-template-columns: 100%;
-        grid-template-rows: 100px 250px 450px;
+        grid-template-rows: 100px 250px 600px;
         margin: 10px;
     }
 
@@ -352,7 +369,7 @@ section div form label {
     .grid-container-contacto {
         display: grid;
         grid-template-columns: 400px;
-        grid-template-rows: 100px 550px 350px;
+        grid-template-rows: 100px 500px 250px;
         padding: 25px;
     }
     .item-10 {
@@ -386,7 +403,7 @@ section div form label {
     .grid-container-obras {
         display: grid;
         grid-template-columns: 400px;
-        grid-template-rows: repeat(6, 350px);
+        grid-template-rows: repeat(6, 400px);
         row-gap: 10px;
         margin-left: 10px;
         margin-top: 10px;
@@ -419,7 +436,7 @@ section div form label {
     .grid-container-proyectos {
         display: grid;
         grid-template-columns: 400px;
-        grid-template-rows: 350px 600px;
+        grid-template-rows: 350px 650px;
         row-gap: 15px;
         margin-top: 10px;
         margin-left: 10px;
