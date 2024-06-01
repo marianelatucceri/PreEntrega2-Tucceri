@@ -74,6 +74,7 @@ a {
 }
 
 
+
 /* Main */
 .grid-container {
     display: grid; /* Activa columnas */
@@ -471,6 +472,14 @@ section div form label {
     .item-22 {
         grid-column: 1/2;
         grid-row: 2/3;
+    }
+    .navbar-toggler-icon{
+        width: 30px;
+    }
+    .navbar-toggler{
+        width: 20%;
+        padding: 5px;
+        border: 1px solid rgba(74, 21, 21, 0.616);
     }
 }
 
