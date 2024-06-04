@@ -1,0 +1,19 @@
+@mixin flexible ( $dis , $just , $align ) {
+    display: $dis;
+    justify-content: $just;
+    align-items: $align;
+}
+
+.flex-container {
+    @include flexible(flex,space-around,center);
+    div {
+        p{
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        img{
+            width: 450px;
+            height: 300px;
+        }
+    }   
+}

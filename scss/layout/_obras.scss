@@ -1,0 +1,84 @@
+main {
+    section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 350px 350px 350px;
+        column-gap: 5px;
+        row-gap: 50px;
+        margin-left: 15px;
+        margin-top: 20px;
+
+        .item-13 {
+            img {
+                width: 450px;
+                padding-top: 10px;
+            }
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .item-14 {
+            p{
+                font-family: "Roboto", sans-serif;
+                font-size: 1rem;
+                span {
+                    color:  rgba(80, 9, 9, 0.314);
+                }
+            }
+            .tabulacion{
+                text-indent: 10px;
+            }
+            grid-column: 2/3;
+            grid-row: 1/2;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        .item-15 {
+            img{
+                width: 450px;
+                padding-top: 10px;
+            }
+            grid-column: 1/2;
+            grid-row: 2/3;
+        }
+        .item-16 {
+            p{
+                font-family: "Roboto", sans-serif;
+                font-size: 1rem;
+                span {
+                    color:  rgba(80, 9, 9, 0.314);
+                }
+            }
+            .tabulacion{
+                text-indent: 10px;
+            }
+            grid-column: 2/3;
+            grid-row: 2/3;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+        .item-17 {
+            img{
+                width: 450px;
+                padding-top: 10px;
+            }
+            grid-column: 1/2;
+            grid-row: 3/4;
+        }
+        .item-18 {
+            p{
+                font-family: "Roboto", sans-serif;
+                font-size: 1rem;
+                span {
+                    color:  rgba(80, 9, 9, 0.314);
+                }
+            }
+            .tabulacion{
+                text-indent: 10px;
+            }
+            grid-column: 2/3;
+            grid-row: 3/4;
+            padding-left: 10px;
+            padding-top: 5px;
+        }
+    }
+}

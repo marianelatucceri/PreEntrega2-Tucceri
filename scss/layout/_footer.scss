@@ -1,0 +1,33 @@
+@mixin flexible ( $dis , $just , $align ) {
+    display: $dis;
+    justify-content: $just;
+    align-items: $align;
+}
+
+footer {
+    @include flexible (flex, space-between, center);
+    margin: 40px 15px 15px 15px;
+    div{
+        .logo{
+            width: 100px;
+            margin-top: 15px;
+            margin-left: 10px;
+            position: relative;
+        }
+    }
+    ul{
+        display: flex;
+        li{
+            list-style-type: none;
+            a{
+          
+                .logo-face {
+                    width: 35px;
+                }
+                .logo-insta {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
