@@ -1,0 +1,32 @@
+main {
+    .grid-container-entrevista{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 600px 400px;
+        row-gap: 5px;
+        margin-top: 20px;
+        margin-left: 15px;
+        .item-21 {
+            grid-row: 1/2;
+            grid-column: 1/2;
+            .video {
+                width: 800px;
+                height: 500px;
+                padding-top: 10px;
+                margin-left: 320px;
+            }
+        }
+        .item-22 {
+            grid-row: 2/3;
+            grid-column: 1/2;
+            p {
+                font-family: "Roboto", sans-serif;
+                font-size: 1rem;
+                font-style: oblique;              
+            }
+            .tabulacion{
+                text-indent: 10px;
+            }              
+        }
+    }
+}

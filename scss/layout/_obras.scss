@@ -3,9 +3,10 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 350px 350px 350px;
-        column-gap: 5px;
-        row-gap: 50px;
-        margin-left: 15px;
+        column-gap: 15px;
+        row-gap: 30px;
+        margin-left: 70px;
+        margin-right: 70px;
         margin-top: 20px;
 
         .item-13 {
