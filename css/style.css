@@ -38,7 +38,7 @@ header nav h1 {
   margin-left: 10px;
   padding: 5px;
 }
-header nav h1 span {
+header nav h1 .span {
   font-weight: bold;
 }
 header nav ul li a {
@@ -192,20 +192,20 @@ main section .item-13 img {
   width: 450px;
   padding-top: 10px;
 }
-main section .item-14 {
+main section .item-14, main section .item-18, main section .item-16 {
   grid-column: 2/3;
   grid-row: 1/2;
   padding-left: 10px;
   padding-top: 5px;
 }
-main section .item-14 p {
+main section .item-14 p, main section .item-18 p, main section .item-16 p {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
 }
-main section .item-14 p span {
+main section .item-14 p span, main section .item-18 p span, main section .item-16 p span {
   color: rgba(80, 9, 9, 0.314);
 }
-main section .item-14 .tabulacion {
+main section .item-14 .tabulacion, main section .item-18 .tabulacion, main section .item-16 .tabulacion {
   text-indent: 10px;
 }
 main section .item-15 {
@@ -219,18 +219,6 @@ main section .item-15 img {
 main section .item-16 {
   grid-column: 2/3;
   grid-row: 2/3;
-  padding-left: 10px;
-  padding-top: 5px;
-}
-main section .item-16 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
-main section .item-16 p span {
-  color: rgba(80, 9, 9, 0.314);
-}
-main section .item-16 .tabulacion {
-  text-indent: 10px;
 }
 main section .item-17 {
   grid-column: 1/2;
@@ -243,18 +231,6 @@ main section .item-17 img {
 main section .item-18 {
   grid-column: 2/3;
   grid-row: 3/4;
-  padding-left: 10px;
-  padding-top: 5px;
-}
-main section .item-18 p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1rem;
-}
-main section .item-18 p span {
-  color: rgba(80, 9, 9, 0.314);
-}
-main section .item-18 .tabulacion {
-  text-indent: 10px;
 }
 
 main .grid-container-proyectos {
@@ -319,6 +295,141 @@ main .grid-container-entrevista .item-22 p {
 }
 main .grid-container-entrevista .item-22 .tabulacion {
   text-indent: 10px;
+}
+
+@media only screen and (max-width: 470px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 250px 600px;
+    margin: 10px;
+  }
+  .grid-container .item-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px;
+  }
+  .grid-container .item-2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-container .item-2 .img-nosotros {
+    width: 100%;
+  }
+  .grid-container .item-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .grid-container-contacto {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 100px 500px 250px;
+    padding: 25px;
+  }
+  .grid-container-contacto .item-10 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 20px;
+  }
+  .grid-container-contacto .item-11 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 10px;
+  }
+  .grid-container-contacto .item-11 form input {
+    padding: 0px 5px;
+    width: 150px;
+    height: 30px;
+  }
+  .grid-container-contacto .item-11 #comentarios {
+    width: 250px;
+    height: 70px;
+  }
+  .grid-container-contacto .item-12 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 20px;
+  }
+  .grid-container-contacto .item-12 .map {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-container-obras {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: repeat(6, 400px);
+    row-gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .grid-container-obras .item-13 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grid-container-obras .item-14, .grid-container-obras main section .item-16, main section .grid-container-obras .item-16, .grid-container-obras main section .item-18, main section .grid-container-obras .item-18 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-container-obras .item-15 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .grid-container-obras .item-16 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .grid-container-obras .item-17 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .grid-container-obras .item-18 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .grid-container-proyectos {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 350px 650px;
+    row-gap: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .grid-container-proyectos .item-19 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grid-container-proyectos .item-19 .img-proyecto {
+    width: 400px;
+  }
+  .grid-container-proyectos .item-20 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-container-entrevista {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 350px 70%;
+    row-gap: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .grid-container-entrevista .item-21 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-container-entrevista .item-21 .video {
+    height: 100%;
+    width: 100%;
+  }
+  .grid-container-entrevista .item-22 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

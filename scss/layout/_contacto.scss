@@ -1,4 +1,4 @@
-@mixin grid ($columns, $row, $gap) {
+@mixin grid ($columns, $row, $gap,) {
     display: grid;
     grid-template-columns: repeat( $columns, 2fr);
     grid-template-rows: $row;
@@ -6,7 +6,7 @@
 }
 
 .grid-container-contacto {
-    @include grid (2 , 100px 500px,25px);
+    @include grid (2 , 100px 500px,25px,);
 
     .item-10{
         h2 {
@@ -14,7 +14,7 @@
             grid-row: 1/2;
             margin-left: 170px;
             margin-top: 10px;
-            color: rgba(80, 9, 9, 0.314);
+            color: $color-texto;
         }
     }
     .item-11{
@@ -24,22 +24,22 @@
         padding-left: 40px !important; 
         form {
             label{
-                color: rgba(80, 9, 9, 0.314);
+                color: $color-texto;
             }
         }
         .boton{
             padding: 5px;
             background-color: white;
-            color: rgba(80, 9, 9, 0.314);
+            color: $color-texto;
             font-family: "Roboto", sans-serif;
             font-family: 1em;
             border-radius: 5px;
-            border: 1px solid rgba(80, 9, 9, 0.314);
-            box-shadow: 0px 4px 0px rgba(80, 9, 9, 0.314);
+            border: 1px solid $color-texto;
+            box-shadow: 0px 4px 0px $color-texto;
         }
         .bordes-form{
             border-radius: 5px;
-            border: 1px solid rgba(80, 9, 9, 0.314);
+            border: 1px solid $color-texto;
         }
     }
     .item-12{
@@ -50,6 +50,4 @@
             padding-top: 30px;
         }
     }
-
-   
 }

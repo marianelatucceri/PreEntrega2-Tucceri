@@ -22,7 +22,7 @@ main {
                 font-family: "Roboto", sans-serif;
                 font-size: 1rem;
                 span {
-                    color:  rgba(80, 9, 9, 0.314);
+                    color: $color-texto;
                 }
             }
             .tabulacion{
@@ -42,20 +42,9 @@ main {
             grid-row: 2/3;
         }
         .item-16 {
-            p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
-                span {
-                    color:  rgba(80, 9, 9, 0.314);
-                }
-            }
-            .tabulacion{
-                text-indent: 10px;
-            }
+            @extend .item-14;
             grid-column: 2/3;
             grid-row: 2/3;
-            padding-left: 10px;
-            padding-top: 5px;
         }
         .item-17 {
             img{
@@ -66,20 +55,9 @@ main {
             grid-row: 3/4;
         }
         .item-18 {
-            p{
-                font-family: "Roboto", sans-serif;
-                font-size: 1rem;
-                span {
-                    color:  rgba(80, 9, 9, 0.314);
-                }
-            }
-            .tabulacion{
-                text-indent: 10px;
-            }
+            @extend .item-14;
             grid-column: 2/3;
             grid-row: 3/4;
-            padding-left: 10px;
-            padding-top: 5px;
         }
     }
 }
