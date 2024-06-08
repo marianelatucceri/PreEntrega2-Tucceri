@@ -20,12 +20,19 @@ footer {
         li{
             list-style-type: none;
             a{
-          
                 .logo-face {
                     width: 35px;
+                    transition: 2s;
+                    &:hover{
+                        transform: translateY(15px);
+                    }
                 }
                 .logo-insta {
                     width: 50px;
+                    transition: 2s;
+                    &:hover{
+                        transform: translateY(15px);
+                    }
                 }
             }
         }
