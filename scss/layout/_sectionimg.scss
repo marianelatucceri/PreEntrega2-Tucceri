@@ -8,7 +8,6 @@
     @include flexible(flex,space-around,center);
     div {
         p{
-            font-weight: bold;
             font-size: 1rem;
         }
         img{
@@ -16,4 +15,5 @@
             height: 300px;
         }
     }   
+    margin: 0 15px;
 }
