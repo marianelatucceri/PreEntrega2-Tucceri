@@ -303,6 +303,7 @@ main .grid-container-proyectos {
   margin-top: 20px;
   margin-left: 70px;
   margin-right: 70px;
+  margin-bottom: 100px;
 }
 main .grid-container-proyectos .item-19 {
   grid-column: 1/2;
