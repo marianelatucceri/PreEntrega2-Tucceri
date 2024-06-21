@@ -3,11 +3,10 @@
     "development"
   ],
   "hints": {
-    "disown-opener": "off",
     "axe/forms": "off",
-    "axe/text-alternatives": "off",
-    "compat-api/html": "off",
+    "disown-opener": "off",
     "no-inline-styles": "off",
-    "css-prefix-order": "off"
+    "compat-api/html": "off",
+    "axe/text-alternatives": "off"
   }
 }
