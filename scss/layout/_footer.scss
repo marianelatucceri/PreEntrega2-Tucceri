@@ -5,6 +5,7 @@
 }
 
 footer {
+
     @include flexible (flex, space-between, center);
     margin: 40px 15px 15px 15px;
     div{

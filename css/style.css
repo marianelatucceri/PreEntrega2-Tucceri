@@ -91,6 +91,9 @@ header nav ul li a:hover {
 .grid-container-contacto .item-11 form label {
   color: rgba(174, 66, 20, 0.367);
 }
+.grid-container-contacto .item-11 form span {
+  display: block;
+}
 .grid-container-contacto .item-11 .boton {
   padding: 5px;
   background-color: white;
@@ -367,7 +370,7 @@ main .grid-container-entrevista .item-22 .tabulacion {
   .grid-container {
     display: grid;
     grid-template-columns: 450px !important;
-    grid-template-rows: 100px 300px 520px !important;
+    grid-template-rows: 100px 350px 670px !important;
     margin: 10px;
   }
   .grid-container .item-1 {
@@ -479,7 +482,7 @@ main .grid-container-entrevista .item-22 .tabulacion {
   .grid-container-entrevista {
     display: grid;
     grid-template-columns: 420px !important;
-    grid-template-rows: 320px 800px !important;
+    grid-template-rows: 320px 980px !important;
     row-gap: 15px;
     margin-top: 10px;
     margin-left: 10px;

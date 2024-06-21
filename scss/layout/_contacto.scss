@@ -25,6 +25,10 @@
         form {
             label{
                 color: $color-texto;
+                
+            }
+            span {
+                display: block;
             }
         }
         .boton{
@@ -45,7 +49,8 @@
             border: 1px solid $color-texto;
             box-shadow: -5px 4px 11px -4px rgba(0,0,0,0.45);
             -webkit-box-shadow: -5px 4px 11px -4px rgba(0,0,0,0.45);
-            -moz-box-shadow: -5px 4px 11px -4px rgba(0,0,0,0.45);      
+            -moz-box-shadow: -5px 4px 11px -4px rgba(0,0,0,0.45);   
+            
         }
     }
     .item-12{
