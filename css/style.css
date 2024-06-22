@@ -366,7 +366,7 @@ main .grid-container-entrevista .item-22 .tabulacion {
   text-indent: 10px;
 }
 
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 480px) {
   .grid-container {
     display: grid;
     grid-template-columns: 450px !important;
@@ -484,6 +484,150 @@ main .grid-container-entrevista .item-22 .tabulacion {
     grid-template-columns: 420px !important;
     grid-template-rows: 320px 980px !important;
     row-gap: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .grid-container-entrevista .item-21 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-container-entrevista .item-21 .video {
+    width: 100% !important;
+    height: 100% !important;
+    margin-left: 0 !important;
+  }
+  .grid-container-entrevista .item-22 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: 700px !important;
+    grid-template-rows: 100px 500px 670px !important;
+    margin: 10px;
+  }
+  .grid-container .item-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin: 10px;
+  }
+  .grid-container .item-2 img-nosotros {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-left: 20px;
+  }
+  .grid-container .item-2 img-nosotros .img-nosotros {
+    width: 100%;
+  }
+  .grid-container .item-3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  .grid-container-contacto {
+    display: grid;
+    grid-template-columns: 650px !important;
+    grid-template-rows: 70px 420px 350px !important;
+    margin-left: 0 !important;
+  }
+  .grid-container-contacto .item-10 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grid-container-contacto .item-11 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 10px;
+  }
+  .grid-container-contacto .item-11 form input {
+    padding: 0px 5px;
+    width: 150px;
+    height: 30px;
+  }
+  .grid-container-contacto .item-11 #comentarios {
+    width: 250px;
+    height: 70px;
+  }
+  .grid-container-contacto .item-12 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 20px;
+  }
+  .grid-container-contacto .item-12 .map {
+    width: 100%;
+    height: 100%;
+  }
+  .grid-container-obras {
+    display: grid;
+    grid-template-columns: 700px;
+    grid-template-rows: repeat(6, 550px);
+    row-gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  .grid-container-obras .item-13 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .grid-container-obras .item-13 img {
+    width: 100%;
+  }
+  .grid-container-obras .item-14, .grid-container-obras main section .item-16, main section .grid-container-obras .item-16, .grid-container-obras main section .item-18, main section .grid-container-obras .item-18 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .grid-container-obras .item-15 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .grid-container-obras .item-15 img {
+    width: 100%;
+  }
+  .grid-container-obras .item-16 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .grid-container-obras .item-17 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+  .grid-container-obras .item-17 img {
+    width: 100%;
+  }
+  .grid-container-obras .item-18 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+  .grid-container-proyectos {
+    display: grid !important;
+    grid-template-columns: 700px !important;
+    grid-template-rows: 550px 650px !important;
+    row-gap: 15px;
+    margin-top: 10px;
+    margin-left: 10px !important;
+  }
+  .grid-container-proyectos .item-19 {
+    grid-column: 1/2 !important;
+    grid-row: 1/2 !important;
+  }
+  .grid-container-proyectos .item-19 .img-proyecto {
+    width: 100% !important;
+  }
+  .grid-container-proyectos .item-20 {
+    grid-column: 1/2 !important;
+    grid-row: 2/3 !important;
+  }
+  .grid-container-entrevista {
+    display: grid;
+    grid-template-columns: 700px !important;
+    grid-template-rows: 450px 900px !important;
+    row-gap: 30px;
     margin-top: 10px;
     margin-left: 10px;
   }
