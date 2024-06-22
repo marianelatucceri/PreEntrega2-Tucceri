@@ -335,7 +335,7 @@ main .grid-container-proyectos .item-20 .tabulacion {
 main .grid-container-entrevista {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 600px 400px;
+  grid-template-rows: 600px 600px;
   row-gap: 5px;
   margin-top: 20px;
   margin-left: 15px;
@@ -370,7 +370,7 @@ main .grid-container-entrevista .item-22 .tabulacion {
   .grid-container {
     display: grid;
     grid-template-columns: 450px !important;
-    grid-template-rows: 100px 300px 520px !important;
+    grid-template-rows: 100px 350px 670px !important;
     margin: 10px;
   }
   .grid-container .item-1 {
@@ -482,7 +482,7 @@ main .grid-container-entrevista .item-22 .tabulacion {
   .grid-container-entrevista {
     display: grid;
     grid-template-columns: 420px !important;
-    grid-template-rows: 320px 800px !important;
+    grid-template-rows: 320px 980px !important;
     row-gap: 15px;
     margin-top: 10px;
     margin-left: 10px;
